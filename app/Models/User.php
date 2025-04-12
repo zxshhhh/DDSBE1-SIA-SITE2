@@ -11,6 +11,6 @@ class User extends Model
         'username', 'password', 'gender', 'jobid'];
     
         public $timestamps = false;
-        protected $primaryKey = 'userid';
+        protected $primaryKey = 'id';
         protected $hidden = ['password'];
 }
